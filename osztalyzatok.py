@@ -9,10 +9,22 @@ def atlag():
     lista[15] + lista[16] + lista[17] + lista[18])
     osszesen = 19
     print(osszeg / osszesen)
+    return(lista)
 atlag()
 
-
+def elegtelenek_szama(lista=[]):
     
+    jegyek_szama = len(lista) 
+    i = 0
+    elegtelen_db = 0
+
+    while i < jegyek_szama:
+        if lista[i] < 2:
+            elegtelen_db += 1
+            i += 1
+    return elegtelen_db
+
+
 
 
 
