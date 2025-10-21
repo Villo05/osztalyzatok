@@ -1,8 +1,5 @@
 """közös feladat"""
-def atlag():
-    jegyek =print(5,2,3,4,4,5,5,5,1,2,2,3,4,5,5,5,4,3,3,)
-    lista = [5,2,3,4,4,5,5,5,1,2,2,3,4,5,5,5,4,3,3,]
-    lista.append(jegyek)
+def atlag(lista=[]):
     osszeg = (lista[0] + lista[1] + lista[2] + lista[3] + lista[4] + 
     lista[5] + lista[6] + lista[7] + lista[8] + lista[9] +
     lista[10] + lista[11] + lista[12] + lista[13] + lista[14] +
@@ -11,6 +8,7 @@ def atlag():
     print(osszeg / osszesen)
     return(lista)
 atlag()
+
 
 def elegtelenek_szama(lista=[]):
     
@@ -52,3 +50,93 @@ def elegtelenek_szama(lista=[]):
 
 
 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def otodik_feladat(lista=[]):
+    i=0
+    while i>1:
+        i+=1
+        
