@@ -1,14 +1,29 @@
 """közös feladat"""
 def atlag(lista=[]):
-    osszeg = (lista[0] + lista[1] + lista[2] + lista[3] + lista[4] + 
-    lista[5] + lista[6] + lista[7] + lista[8] + lista[9] +
-    lista[10] + lista[11] + lista[12] + lista[13] + lista[14] +
-    lista[15] + lista[16] + lista[17] + lista[18])
-    osszesen = 19
-    print(osszeg / osszesen)
+    i=0
+    hossz=len(lista)
+    ossz=0
+    while hossz>i:
+        ossz+=lista[i]
+        i+=1
+    
+    print(f'Az jegyek átlaga {ossz/hossz}.')
 
 
+def masodik(lista=[]):
+    i=0
+    db_5=0
+    hossz5os=len(lista)
+    while hossz5os>i:
+        i+=1
+        if i==5:
+            db_5+=1
+    print(f'{db_5} db ötös van.')
+        
 
+    
+
+    
     
 
 
