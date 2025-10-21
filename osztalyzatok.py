@@ -10,3 +10,33 @@ def atlag():
     osszesen = 19
     print(osszeg / osszesen)
 atlag()
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
