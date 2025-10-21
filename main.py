@@ -5,8 +5,5 @@ db = osztalyzatok.elegtelenek_szama(szamok)
 print("Elégtelen jegyek száma:", db)
 
 osztalyzatok.atlag(szamok)
-<<<<<<< HEAD
 osztalyzatok.masodik(szamok)
-=======
 ittcsinalom.harmadik(szamok)
->>>>>>> 6c03f20096aa3ec486d07a71789b5f65de0c22ac
