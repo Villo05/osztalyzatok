@@ -22,6 +22,17 @@ def masodik(lista=[]):
         
 
     
+    jegyek_szama = len(lista) 
+    i = 0
+    elegtelen_db = 0
+
+    while i < jegyek_szama:
+        if lista[i] < 2:
+            elegtelen_db += 1
+            i += 1
+    return elegtelen_db
+
+
 
     
     
